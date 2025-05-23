@@ -166,9 +166,15 @@ body { font-family:Arial,sans-serif; background:#F6ECD1; color:#212121; overflow
   background:#A97C50; 
   color:#FFF;
   border:none; 
-  border-radius:8px; 
+  border-radius:8px;             
   }
-
+.btn:active {
+  background-color: #6b532d;
+}
+.price {
+    font-size: 18px;
+    font-weight:bold;
+}
 /* Mobile Bottom Nav */
 .mobile-nav {
   position:fixed; bottom:0; left:0; width:100%; background:#EFE5C7;
@@ -240,9 +246,16 @@ body { font-family:Arial,sans-serif; background:#F6ECD1; color:#212121; overflow
     font-size:16px;
     font-weight:bold;
     width:150px; padding:8px 0; }
+  .btn:hover{
+    background-color: #6b532d;
+  }
   #desktopSortBtn {
     font-weight:bold;
     width: 130px;
+  }
+  .price {
+    font-size: 18px;
+    font-weight:bold;
   }
   /* Desktop Footer */
   .desktop-footer {
